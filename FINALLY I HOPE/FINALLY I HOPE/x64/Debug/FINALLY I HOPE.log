@@ -1,0 +1,16 @@
+﻿  entities.cpp
+C:\Users\Bogdan\source\repos\FINALLY I HOPE\FINALLY I HOPE\entities.h(7,30): error C3699: '&': cannot use this indirection on type 'entities'
+C:\Users\Bogdan\source\repos\FINALLY I HOPE\FINALLY I HOPE\entities.h(7,30): message : compiler replacing '&' with '^' to continue parsing
+C:\Users\Bogdan\source\repos\FINALLY I HOPE\FINALLY I HOPE\entities.cpp(7,38): error C3699: '&': cannot use this indirection on type 'entities'
+C:\Users\Bogdan\source\repos\FINALLY I HOPE\FINALLY I HOPE\entities.cpp(7,38): message : compiler replacing '&' with '^' to continue parsing
+C:\Users\Bogdan\source\repos\FINALLY I HOPE\FINALLY I HOPE\entities.cpp(9,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Bogdan\source\repos\FINALLY I HOPE\FINALLY I HOPE\entities.cpp(21,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  MyForm.cpp
+C:\Users\Bogdan\source\repos\FINALLY I HOPE\FINALLY I HOPE\entities.h(7,30): error C3699: '&': cannot use this indirection on type 'entities'
+C:\Users\Bogdan\source\repos\FINALLY I HOPE\FINALLY I HOPE\entities.h(7,30): message : compiler replacing '&' with '^' to continue parsing
+C:\Users\Bogdan\source\repos\FINALLY I HOPE\FINALLY I HOPE\MyForm.h(247,1): error C2664: 'void entities::attack(entities ^)': cannot convert argument 1 from 'entities' to 'entities ^'
+C:\Users\Bogdan\source\repos\FINALLY I HOPE\FINALLY I HOPE\MyForm.h(247,1): message : No user-defined-conversion operator available, or
+C:\Users\Bogdan\source\repos\FINALLY I HOPE\FINALLY I HOPE\MyForm.h(247,17): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\Bogdan\source\repos\FINALLY I HOPE\FINALLY I HOPE\entities.h(7,8): message : see declaration of 'entities::attack'
+C:\Users\Bogdan\source\repos\FINALLY I HOPE\FINALLY I HOPE\MyForm.cpp(8,1): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  Generating Code...
